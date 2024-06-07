@@ -1,0 +1,264 @@
+.meal-plan-page {
+    height: 100vh;
+    width: 120vh;
+    border-radius: 30px 0px 0px 30px;
+    background: #FFF;
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25);
+    /* position: absolute; */
+    right: 0;
+    padding: 40px;
+    z-index: 5;
+    margin-left: auto;
+    position: fixed;
+}
+
+.meal-plan-page .mealplan-ct {
+    display: flex;
+    flex-direction: column;
+    /* background-color: antiquewhite; */
+    gap: 3vh;
+    position: relative;
+}
+
+.meal-plan-page .mealplan-ct .meal-plan-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.meal-plan-page .mealplan-ct h1 {
+    font-family: 'Poppins';
+    font-size: 25px;
+}
+
+.meal-plan-page .mealplan-ct h2 {
+    font-family: 'Inter';
+    font-size: 17px;
+    font-weight: 900;
+    margin-bottom: 5px;
+}
+
+.meal-plan-page .mealplan-ct .meal-plan-1 p {
+    font-family: 'Poppins-Light';
+    font-size: 15px;
+    font-weight: 800;
+    width: 70vh;
+}
+
+.meal-plan-page .mealplan-ct .meal-plan-1 .meal-dropdown {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.meal-plan-page .mealplan-ct .meal-plan-1 .meal-dropdown select {
+    width: 30vh;
+    height: 7vh;
+    outline: none;
+    padding: 5px 10px;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25);
+}
+
+.meal-plan-page .mealplan-ct .meal-plan-1 .meal-dropdown select option {
+    text-transform: capitalize;
+}
+
+.meal-plan-page .mealplan-ct .plan-calendar {
+    width: 55px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 1px solid #FFBE1A;
+    background: rgba(255, 190, 26, 0.20);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins-Light';
+    font-size: 14px;
+    font-weight: 800;
+}
+
+.calendar-container {
+    display: flex;
+    flex-direction: row;
+    gap: 4vh;
+    width: 105vh;
+    overflow-y: hidden;
+}
+
+.calendar-container1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+/* ::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #ffffff; 
+  }
+   
+  ::-webkit-scrollbar-thumb {
+    background: #ffffff; 
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #ffffff; 
+  } */
+
+  .meal-reminder {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 40px;
+    /* align-items: center; */
+  }
+
+  .meal-reminder h3 {
+    font-family: 'Inter';
+    font-weight: 800;
+    margin-bottom: 10px;
+    font-size: 15px;
+  }
+
+  .meal-reminder-card {
+    width: 80vh;
+    height: 125px;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25);
+    /* margin: auto; */
+    position: relative;
+    z-index: 5;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px;
+    gap: 2vh;
+    margin-left: 50px;
+    font-family: 'Inter';
+    line-height: 1.2;
+  }
+  
+  .meal-reminder-card img {
+    border-radius: 10px;
+    background: #D9D9D9;
+    height: 90px;
+    width: 20vh;
+    margin: 0 15px;
+  }
+
+  .meal-card-ctn {
+    position: relative;
+    /* height: 180px; */
+    display: flex;
+    flex-direction: row;
+  }
+
+  .meal-card-ctn .meal-card-expand {
+    width: 10vh;
+    height: 125px;
+    border-radius: 0px 20px 20px 0px;
+    background: #4F48ED;
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25);
+    position: relative;
+    z-index: 2;
+    left:-17px;
+    /* margin: auto; */
+    padding: 15px 0 15px 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    font-size: 13.5px;
+    font-family: 'Inter';
+    font-weight: 100;
+}
+
+  /* .meal-card-ctn .meal-card-expand {
+    width: 80vh;
+    height: 48px;
+    border-radius: 0px 0px 20px 20px;
+    background: #4F48ED;
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25);
+    position: relative;
+    z-index: 2;
+    bottom: 25px;
+    margin: auto;
+    padding: 12px 20vh 0 20vh;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 13.5px;
+    font-family: 'Inter';
+    font-weight: 100;
+} */
+
+.meal-plan-page .plan-mark-open {
+    position: relative;
+    top: 50%;
+    left: -100px;
+    height: 0;
+    /* transform: translateY(-50%); */
+}
+
+.btn-add-meal {
+  position: absolute;
+  right: 0;
+  bottom: -25px;
+}
+
+.btn-add-meal button {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: #FFBE1A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.meal-card-expand .btn-done-cancel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Inter';
+  font-size: 10px;
+  font-weight: 100;
+}
+
+.meal-reminder-card b {
+  font-family: 'Inter';
+  font-size: 19px;
+  text-align: center;
+}
+
+.meal-reminder-card p {
+  font-family: 'Inter';
+  font-size: 100;
+  font-size: 15px;
+  text-align: center;
+}
+
+.meal-reminder-card h2 {
+  text-align: left;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.meal-reminder-card h4 {
+  text-align: left;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.meal-reminder-card h5 {
+  text-align: left;
+  font-size: 13.5px;
+}

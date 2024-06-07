@@ -1,0 +1,184 @@
+.navigate-back-edit {
+    display: flex;
+    font-family: 'Poppins';
+    font-size: 23px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.edit-resep-box {
+    padding: 35px 45px;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25);
+    width: 189vh;
+    margin: 20px 10px;
+}
+
+.edit-resep-head {
+    display: flex; 
+    gap: 9vh;
+    margin-bottom: 25px;
+    /* justify-content: space-between; */
+}
+
+.edit-resep-head .resep-head-ctn {
+    display: flex;
+    flex-direction: column;
+    /* margin: 10px 0; */
+}
+
+.resep-head-ctn p {
+    font-family: 'Poppins-Medium';
+    margin-left: 8px;
+    font-size: 17px;
+}
+
+.edit-resep-head .resep-head-ctn input, select {
+    width: 80vh;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.50);
+    background: #FFF;
+    padding: 10px 12px;
+    outline: #FFBE1A;
+    font-family: 'Poppins-Light';
+    font-weight: 600;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.edit-resep-foto {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    display: flex;
+    margin: 5px 20px;
+    width: 450px;
+    height: 292px;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25);
+}
+
+.edit-resep-foto img {
+    display: block;
+    margin: auto;
+    width: 360px;
+    height: 262px;
+    border-radius: 15px;
+}
+
+.edit-resep-foto .btn-resep-foto {
+    margin: auto 0;
+    margin-left: auto;
+}
+
+.edit-resep-foto .btn-resep-foto label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4F48ED;
+    color: #FFF;
+    width: 45px;
+    height: 45px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.edit-resep-box label {
+    font-family: 'Poppins-Medium';
+    font-size: 17px;
+    font-weight: 100;
+}
+
+.edit-resep-container {
+    padding: 0 25px;
+}
+
+.edit-resep-container input {
+    width: 150vh;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.50);
+    background: #FFF;
+    padding: 10px 12px;
+    outline: #FFBE1A;
+    font-family: 'Poppins-Light';
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.edit-resep-container textarea {
+    width: 150vh;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.50);
+    background: #FFF;
+    padding: 8px 12px;
+    outline: #FFBE1A;
+    resize: none;
+    font-family: 'Poppins-Light';
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.edit-resep-container .edit-ingredient-input {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.edit-resep-container span {
+    width: 43px;
+    font-size: 25px;
+    padding-top: 5px;
+    margin-right: 10px;
+    height: fit-content;
+    font-weight: 500;
+    color: #FFBE1A;
+    font-family: 'Poppins-Medium';
+    padding-left: 15px;
+}
+
+.edit-resep-container .btn-add-bahan {
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.edit-resep-container .btn-add-bahan button {
+    /* color: #FFBE1A; */
+    color: #4F48ED;
+    margin: 0 auto;
+}
+
+.edit-resep-container .btn-remove-edit {
+    /* color: red; */
+    color: #FFBE1A;
+    margin: auto 8px;
+    padding-top: 2px;
+}
+
+.edit-resep-button {
+    width: 150px;
+    height: 50px;
+    border-radius: 15px;
+    color: white;
+    font-family: 'Poppins';
+    margin-top: 20px;
+    /* cursor: pointer; */
+    /* margin: auto; */
+}
+
+.edit-resep-button.hapus-resep {
+    background-color: #4F48ED;
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+.edit-resep-button.simpan-resep {
+    background-color: #FFBE1A;
+    margin-right: auto;
+    margin-left: 10px;
+}

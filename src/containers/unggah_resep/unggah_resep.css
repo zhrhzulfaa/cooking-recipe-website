@@ -1,0 +1,398 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-weight: 300;
+}
+
+::placeholder {
+    font-family: 'Poppins-Light';
+    padding-top: 27px;
+    padding-left: 5px;
+}
+
+/* css bagian title */
+.unggah-resep-container {
+    padding: 30px 50px;
+}
+
+.unggah-resep-container .unggah-resep-title {
+    display: flex;
+    font-family: 'Poppins';
+}
+
+.unggah-resep-container .unggah-resep-title h2 {
+    font-size: 25px;
+    margin-left: 2vh;
+}
+
+/*======= css bagian .form keseluruhan =======*/
+
+/* css bagian kotak .form */
+.unggah-resep-container .unggah-resep-input {
+    width: 170vh;
+    height: fit-content;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: #FFF;
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+}
+
+/* css bagian .form */
+.unggah-resep-container .unggah-resep-input .form {
+    font-weight: 100;
+    padding: 40px;
+}
+
+/* css bagian semua label yang ada di .form */
+.unggah-resep-container .unggah-resep-input .form label {
+    font-family: 'Poppins-Medium';
+    font-weight: 100;
+    font-size: 17px;
+}
+
+/* css bagian semua input yang ada di .form */
+.unggah-resep-container .unggah-resep-input .form input {
+    margin-top: 5px;
+    margin-bottom: 2rem;
+    width: 58rem;
+    height: 2.5rem;
+    flex-shrink: 0;
+    border-radius: 7px;
+    border: 1px solid rgba(0, 0, 0, 0.50);
+    background: #FFF;
+    padding: 0 10px;
+    font-family: 'Poppins-Light';
+    font-weight: 600;
+}
+
+/* css bagian semua select yang ada di .form */
+.unggah-resep-container .unggah-resep-input .form select {
+    margin-top: 5px;
+    margin-bottom: 2rem;
+    width: 67rem;
+    height: 2.5rem;
+    flex-shrink: 0;
+    border-radius: 7px;
+    border: 1px solid rgba(0, 0, 0, 0.50);
+    background: #FFF;
+    margin-left: 2.9vh;
+    font-family: 'Poppins-Light';
+    font-weight: 600;
+}
+
+/* css bagian semua option yang ada di .form */
+.unggah-resep-container .unggah-resep-input .form option {
+    margin-top: 5px;
+    margin-bottom: 2rem;
+    width: 67rem;
+    height: 2.5rem;
+    flex-shrink: 0;
+    border-radius: 7px;
+    border: 1px solid rgba(0, 0, 0, 0.50);
+    background: #FFF;
+}
+
+.unggah-resep-container .unggah-resep-input .unggah-resep-input2 label {
+    text-align: center;
+}
+
+/* css bagian unggah foto untuk upload */
+
+.unggah-resep-container .unggah-resep-input .form .unggah-gambar-input2 {
+    display: flex;
+
+}
+.unggah-resep-container .unggah-resep-input .form .unggah-gambar-input2 label {
+    width: 364px;
+    height: 319px;
+    border-radius: 10px;
+    border: 1px dashed rgba(0, 0, 0, 0.50);
+    background: rgba(217, 217, 217, 0.71);
+    cursor: pointer;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* css bagian label yang ada di unggah foto */
+.unggah-resep-container .unggah-resep-input .unggah-resep-input2 .unggah-foto label {
+    /* position: absolute; */
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+
+/* css bagian teks unggah yang ada di unggah foto */
+.unggah-resep-container .unggah-resep-input .unggah-resep-input2 .unggah-foto p {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    text-align: center;
+}
+
+/* css untuk bagian bahan resep */
+.unggah-resep-container .unggah-resep-input .unggah-resep-input2 .bahan-resep .ingredient-input {
+    display: flex;
+}
+
+/* css untuk bagian bahan resep button remove bahan*/
+.unggah-resep-container .unggah-resep-input .unggah-resep-input2 .bahan-resep .ingredient-input button {
+    width: 30px;
+    height: 50px;
+    margin-left: 8px;
+}
+
+.unggah-resep-container .unggah-resep-input .unggah-resep-input2 .bahan-resep .ingredient-input span {
+    font-size: 25px;
+    padding-top: 5px;
+    margin-right: 10px;
+    height: fit-content;
+    font-weight: 500;
+    color: #FFBE1A;
+}
+
+.unggah-resep-container .unggah-resep-input .unggah-resep-input2 .bahan-resep .button-add {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+    color: #4F48ED;
+}
+
+/* css untuk bagian langkah masak */
+.unggah-resep-container .unggah-resep-input .unggah-resep-input2 .langkah-masak .steps-input {
+    display: flex;
+}
+
+.unggah-resep-container .unggah-resep-input .unggah-resep-input2 .langkah-masak .steps-input textarea {
+    margin-top: 5px;
+    margin-bottom: 2rem;
+    width: 58rem;
+    height: 5rem;
+    flex-shrink: 0;
+    border-radius: 7px;
+    border: 1px solid rgba(0, 0, 0, 0.50);
+    background: #FFF;
+    padding: 5px 12px;
+    font-family: 'Poppins-Light';
+    font-weight: 600;
+    resize: none;
+}
+
+/* css untuk bagian bahan resep button remove bahan*/
+.unggah-resep-container .unggah-resep-input .unggah-resep-input2 .langkah-masak .steps-input button {
+    width: 30px;
+    height: 90px;
+    margin-left: 8px;
+}
+
+.unggah-resep-container .unggah-resep-input .unggah-resep-input2 .langkah-masak .steps-input span {
+    font-size: 25px;
+    padding-top: 28px;
+    margin-right: 10px;
+    height: fit-content;
+    font-weight: 500;
+    color: #FFBE1A;
+}
+
+.unggah-resep-container .unggah-resep-input .unggah-resep-input2 .langkah-masak .button-add2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+    color: #4F48ED;
+    width: 63rem;
+}
+
+/* button submit dan cancel .form */
+.unggah-resep-container .unggah-resep-input .form .button-bawah {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.unggah-resep-container .unggah-resep-input .form .button-bawah .button-unggah {
+    width: 9rem;
+    height: 3rem;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #FFBE1A;
+    font-weight: 600;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.25);
+    /* margin-right: 5rem; */
+    font-weight: 600;
+    color: #FFF;
+    font-family: 'Poppins';
+    text-align: center;
+
+}
+
+.unggah-resep-container .unggah-resep-input .form .button-bawah .button-unggah:hover {
+    background-color: #110F36;
+    color: white;
+}
+
+.unggah-resep-container .unggah-resep-input .form .button-bawah .button-cancel {
+    width: 8rem;
+    height: 3rem;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #ED4848;
+    font-family: 'Poppins';
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.25);
+    margin-right: 5rem;
+    color: #fff;
+}
+
+.unggah-resep-container .unggah-resep-input .form .button-bawah .button-cancel:hover {
+    background-color: #110F36;
+    color: white;
+}
+
+/*======= css bagian pop up confirm =======*/
+
+/* css bagian overlay-popup-confirm */
+.unggah-resep-container .overlay-popup-confirm {
+    z-index: 999;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    align-items: center;
+    justify-content: center;
+}
+
+.unggah-resep-container .overlay-popup-confirm .col-popup-confirm {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+
+
+}
+
+.unggah-resep-container .overlay-popup-confirm .col-popup-confirm p {
+    font-family: 'Poppins-Light';
+    font-weight: 600;
+}
+
+.unggah-resep-container .overlay-popup-confirm .col-popup-confirm .button-confirm {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins';
+    font-size: 15.5px;
+}
+
+.unggah-resep-container .overlay-popup-confirm .col-popup-confirm .button-confirm button {
+    width: 6rem;
+    height: 3rem;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: 600;
+    color: #FFF;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.25);
+    text-align: center;
+}
+
+.unggah-resep-container .overlay-popup-confirm .col-popup-confirm .button-confirm button.confirm {
+    background-color: #4F48ED;
+    margin-left: -10px;
+}
+
+.unggah-resep-container .overlay-popup-confirm .col-popup-confirm .button-confirm button.confirm:hover {
+    background-color: #110F36;
+    color: white;
+}
+
+.unggah-resep-container .overlay-popup-confirm .col-popup-confirm .button-confirm button.cancel {
+    background-color: #FFBE1A;
+    margin-left: 20px;
+}
+
+.unggah-resep-container .overlay-popup-confirm .col-popup-confirm .button-confirm button.cancel:hover {
+    background-color: #110F36;
+    color: white;
+}
+
+.btn-remove-bhn {
+    color: #FFBE1A;
+}
+
+.img-unggah-gambar-page {
+    width: 364px;
+    height: 279px;
+    border-radius: 10px;
+    border: 1px dashed rgba(0, 0, 0, 0.50);
+    margin-bottom: 20px;
+}
+
+.terunggah-gambar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.desc-unggah-gambar {
+    font-family: "Poppins-Light";
+    font-weight: 700;
+}
+
+.gajadi-unggah {
+    height: 40px;
+    margin: 0;
+    padding: 0;   
+}
+
+.gajadi-unggah:hover {
+    background-color: rgba(0, 0, 0, 0.154);
+    border-radius: 5px;
+}
+
+.popopup {
+    width:100vh; 
+    height:10vh;
+    position: fixed;
+    top: 10%;
+    left: 50%;
+    opacity: 0.85;
+    margin-left: 40px;
+    transform: translate(-50%, -50%);
+    background: #a1a1a1;
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+/* .fade-out {
+    animation: fadeOut 2s forwards;
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+        visibility: hidden;
+    }
+} */

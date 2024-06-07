@@ -1,0 +1,199 @@
+.navbar-2 .sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    width: 80px;
+    height: 100vh;
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25);
+    align-items: center;
+    padding: 0;
+    position: fixed;
+    /* background-color: #FFBE1A; */
+    /* z-index: 2; */
+}
+
+.navbar-2 .sidebar .logo {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.37);
+    padding: 8px;
+}
+
+.navbar-2 .sidebar .content-side {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 3vh;
+}
+
+.navbar-2 .sidebar .profile-pic {
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.25);
+    width: 58px;
+    height: 58px;
+    margin: 18px auto;
+    display: flex;
+    align-items: center; /* Center vertically */
+    justify-content: center; 
+}
+
+.navbar-2 .sidebar .page-menu.active svg path {
+    fill: #FFBE1A;
+}
+
+.navbar-2 .sidebar .page-menu.home.active svg path {
+    fill: none;
+    stroke: #FFBE1A;
+}
+
+.navbar-2 .sidebar .profile-pic img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.navbar-2 .navbar-container {
+    background-color: #FFF;
+    width: 280px;
+    height: 100vh;
+    position: fixed;
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25);
+    z-index: 3;
+    /* background-color: #FFBE1A; */
+    /* position: absolute; */
+}
+
+.navbar-2 .navbar-container .head {
+    padding: 10px 15px;
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 2vh;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.37);;
+}
+
+.navbar-2 .navbar-container .head img {
+    width: 65px; /* Set a fixed width */
+    height: 65px; /* Set a fixed height */
+    object-fit: contain; /* Maintain the aspect ratio without stretching */
+    margin: auto;
+}
+
+.navbar-2 .navbar-container .head h1 {
+    color: #000;
+    font-family: 'Poppins';
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.navbar-2 .navbar-container .head p {
+    width: 170px;
+    font-size: 16px;
+    font-family: 'Poppins-Light';
+    font-weight: 600;
+}
+
+.navbar-2 .navbar-container .login-btn {
+    width: 240px;
+    height: 66px;
+    border-radius: 10px;
+    background-color: #4F48ED;
+    color: #FFF;
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;;
+    box-shadow: 0px 3px 17px 0px rgba(0, 0, 0, 0.25);
+    justify-content: center;
+    align-items: center;
+    margin: 25px auto;
+    padding: 0 15px;
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 2vh;
+
+}
+
+.navbar-2 .navbar-container .profile img {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+
+.navbar-2 .navbar-container .profile h1 {
+    color: #000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    font-family: 'Poppins';
+}
+
+.navbar-2 .navbar-container .profile p {
+    width: 145px;
+    color: #000;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    font-family: 'Poppins-Light';
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+}
+
+.navbar-2 .navbar-container .menu {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3vh;
+    padding: 0 32px;
+}
+
+.navbar-2 .navbar-container .menu .menu-container {
+    align-items: center;
+    display: inline-flex;
+    padding: 10px;
+    color: #000;
+    font-family: 'Poppins-Medium';
+    font-size: 17px;
+    gap: 3vh;
+    /* font-weight: 1000; */
+}
+
+.navbar-2 .navbar-container .menu A.active .menu-container svg path {
+    fill: #FFBE1A;
+}
+
+.navbar-2 .navbar-container .menu A:hover .menu-container svg path {
+    fill: #FFBE1A;
+}
+
+.navbar-2 .navbar-container .menu A.active .menu-container.home svg path {
+    fill: none;
+    stroke: #FFBE1A;
+}
+
+.navbar-2 .navbar-container .menu A:hover .menu-container.home svg path {
+    fill: none;
+    stroke: #FFBE1A;
+}
+
+.navbar-2 .navbar-container .menu A.active .menu-container p {
+    color: #FFBE1A;
+}
+
+.navbar-2 .navbar-container .menu A:hover .menu-container p {
+    color: #FFBE1A;
+}
+
+.navbar-2 .main-content {
+    /* margin-top: 10px; */
+    z-index: -2;
+    margin-left: 80px;
+    flex: 1;
+}
+
+.navbar-2 .page-component {
+    display: flex;
+    flex-direction: row;
+}

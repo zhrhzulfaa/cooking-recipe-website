@@ -1,0 +1,140 @@
+.container-signup {
+    background-color: #FFBE1A;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+.signup-content {
+    padding: 35px;
+    width: 40vw;
+}
+
+.signup-content h1 {
+    color: rgba(0, 0, 0, 0.83);
+    text-align: center;
+    font-family: 'Poppins';
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.signup-content p {
+    margin: auto;
+    width: 370px;
+    color: rgba(0, 0, 0, 0.83);
+    text-align: center;
+    font-family: 'Poppins-Light';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.signup-card {
+    width: 53%;
+    border-radius: 35px 0px 0px 35px;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.25);
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    margin-left: auto;
+    float: right;
+    display: flex;
+    flex-direction: column;
+    /* text-align: left; */
+}
+
+.signup-card h1 {
+    color: rgba(0, 0, 0, 0.83);
+    text-align: left;
+    font-family: 'Poppins';
+    font-size: 37px;
+    font-weight: 700;
+    /* text-align: left; */
+    margin: 0;
+}
+
+.signup-card p {
+    color: rgba(0, 0, 0, 0.83);
+    text-align: left;
+    font-family: 'Poppins-Light';
+    font-size: 17px;
+    font-weight: 600;
+    margin: 0;
+    width: fit-content;
+    /* text-align: left; */
+    /* margin-bottom: 15px; */
+}
+
+.signup-card label {
+    color: #000;
+    font-family: 'Poppins-Light';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 5px;
+    /* text-align: left; */
+}
+
+.signup-card input {
+    width: 94vh;
+    height: 6.5vh;
+    padding: 5px 12px;
+    border-radius: 10px;
+    border: 1px solid rgba(17, 15, 54, 0.70);
+    background: #FFF;
+    color: rgba(0, 0, 0, 0.80);
+    font-family: 'Poppins-Light';
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 17px;
+    margin-top: 5px;
+}
+
+/* CSS */
+.signup-card ::placeholder {
+    opacity: 0.5; /* Adjust the opacity value as needed (0 to 1) */
+  }
+  
+
+.signup-card button {
+    margin-top: 25px;
+    width: 94vh;
+    height: 7.5vh;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: #4F48ED;
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.signup-card .buat-akun {
+    margin-top: 20px;
+    /* margin-bottom: 20px; */
+    text-align: center;
+    color: rgba(0, 0, 0, 0.80);
+    font-family: 'Poppins-Light';
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.signup-card .buat-akun A {
+    color: #4F48ED;
+}
+
+.signup-card .pass-icon {
+    position: absolute;
+    right: 20px;
+    margin-top: 13px;
+    opacity: 0.5;
+    cursor: pointer;
+}

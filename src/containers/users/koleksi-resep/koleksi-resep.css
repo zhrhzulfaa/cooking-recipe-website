@@ -1,0 +1,101 @@
+.koleksi-resep-pg {
+    /* background-color: antiquewhite; */
+    padding: 30px 40px;
+}
+
+.koleksi-resep-pg h1 {
+    font-family: 'Poppins';
+    font-size: 28px;
+}
+
+.koleksi-resep-pg .koleksi-resep-cp {
+    display: flex;
+    flex-direction: row;
+    gap: 5vh;
+    flex-wrap: wrap; 
+    justify-content: left;
+    margin-top: 10px;
+}
+
+.koleksi-resep-pg .koleksi-resep-cp .koleksi-resep-item {
+    width: 92vh;
+    height: 250px;
+    border-radius: 10px 40px 10px 10px;
+    background: #FFF;
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25);
+    display: inline-flex;
+    /* align-items: center; */
+    padding-left: 20px;
+    gap: 3vh;
+    overflow: hidden;
+    text-overflow: ellipsis; 
+}
+
+
+.koleksi-resep-pg .koleksi-resep-cp .koleksi-resep-item h1 {
+    font-size: 20px;
+}
+
+.koleksi-resep-pg .koleksi-resep-cp .koleksi-resep-item img {
+    width: 236px;
+    height: 205px;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.koleksi-resep-pg .koleksi-resep-cp .koleksi-resep-item .recipes-desc {
+    flex: 1;
+    /* height: 235px; */
+    padding-bottom: 20px;
+    /* background-color: antiquewhite; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.koleksi-resep-pg .koleksi-resep-cp .koleksi-resep-item .recipes-desc h2 {
+    font-family: 'Inter';
+    font-size: 14.5px;
+    font-weight: 800;
+}
+
+.koleksi-resep-pg .koleksi-resep-cp .koleksi-resep-item .recipes-desc li {
+    font-family: 'Inter';
+    font-size: 14.5px;
+    font-weight: 100;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin-left: 20px;
+}
+
+.koleksi-resep-pg .koleksi-resep-cp .koleksi-resep-item .recipes-desc .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.koleksi-resep-pg .koleksi-resep-cp .koleksi-resep-item .recipes-desc .header h1 {
+    margin-top: 20px;
+}
+
+.koleksi-resep-pg .koleksi-resep-cp .koleksi-resep-item .recipes-desc .header button {
+    width: 55px;
+    height: 58px;
+    flex-shrink: 0;
+    border-radius: 0px 40px;
+    background: #FFBE1A;
+}
+
+.koleksi-resep-pg .koleksi-resep-cp .koleksi-resep-item .recipes-desc .ctn-recipes {
+    height: 26vh;
+    width: 300px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.koleksi-resep-pg .koleksi-resep-cp .koleksi-resep-item .recipes-desc .ulasan {
+    font-family: 'Inter';
+    font-size: 15px;
+    font-weight: 500;
+    /* color: #FFBE1A; */
+}

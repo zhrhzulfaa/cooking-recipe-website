@@ -1,0 +1,24 @@
+.bahan-langkah-box {
+    width: 189vh;
+    /* height: 337px; */
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25);
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 4vh;
+    margin-bottom: 30px;
+}
+
+.bahan-langkah-box h5 {
+    font-family: 'Poppins-Medium';
+}
+
+.bahan-langkah-box li {
+    margin-left: 20px;
+}
+
+.bahan-langkah-container {
+    padding-left: 50px;
+}
